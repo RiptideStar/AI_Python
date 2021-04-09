@@ -37,9 +37,6 @@ model.fit(train_images, train_labels, epochs=5)
 # test!
 test_loss = model.evaluate(test_images, test_labels)
 
-
-
-
 # visualization of trained neural network on the test data
 plt.imshow(test_images[0], cmap='gray', vmin=0, vmax=255)
 plt.show()
