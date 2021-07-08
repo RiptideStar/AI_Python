@@ -3,7 +3,7 @@ import requests
 # This function will pass your numbers to the machine learning model
 # and return the top result with the highest confidence
 def classify(numbers):
-    key = "4aff97c0-8504-11eb-be4b-734540ae4c3002268c3e-4a2f-4c53-9aef-5885e05a02b1"
+    key = "f88d32c0-df46-11eb-9b38-7bdfa052f4e51763c520-443f-4bf5-950f-d4df3f0f0740"
     url = "https://machinelearningforkids.co.uk/api/scratch/"+ key + "/classify"
 
     response = requests.post(url, json={ "data" : numbers })
