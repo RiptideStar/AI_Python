@@ -42,6 +42,7 @@ print(face_coordinates)
 for (x,y,w,h) in face_coordinates:
     cv2.rectangle(img, (x,y), (x+w, y+h), (randrange(128,256), randrange(128,256), randrange(128,256)), 2)
 
+#random meme rectangle
 cv2.rectangle(img, (420, 69), (69, 420), (191, 64, 191), 8)
 # #Display
 windowName = 'Face Detector'
